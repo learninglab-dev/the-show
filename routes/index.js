@@ -8,8 +8,8 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/menu', function(req, res, next) {
-  // get appts from google cal?
-  // get
+  // get appts from public google cal
+  // get 
   res.render('menu', { title: "show and tell" });
 });
 
