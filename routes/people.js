@@ -1,6 +1,10 @@
 var express = require('express');
 var router = express.Router();
-var people = require('../data/people.json')
+var people = require('../data/people.json');
+
+
+
+
 
 /* GET person page. */
 router.get('/:name', function(req, res, next) {
@@ -19,5 +23,7 @@ router.get('/:name', function(req, res, next) {
     person: thePersonIWant
   })
 });
+
+
 
 module.exports = router;
